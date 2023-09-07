@@ -1,0 +1,41 @@
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+
+  .form-control {
+    height: 50px;
+    border: 2px solid #007bff; /* Add a border */
+    border-radius: 25px; /* Make it more rounded */
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #0056b3; 
+  }
+  
+
+  #submit {
+    height: 50px;
+    width: 100px;
+    background-color:black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  #submit:hover {
+    background-color: rgb(72, 72, 72);
+  }

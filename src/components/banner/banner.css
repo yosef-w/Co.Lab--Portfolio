@@ -1,0 +1,38 @@
+/* banner.css */
+
+.banner-section {
+    background-image: url('../../../public/assets/blue\ and\ yellow\ banner.png'); /* Adjust the path to your background image */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    height: 60vh;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fun-fact-button:hover {
+    background-color: #ff9900;
+  }
+
+.banner-heading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.banner-paragraph {
+    font-size: 18px;
+    margin: 20px 0;
+    max-width: 50%;
+    text-align: center;
+}
